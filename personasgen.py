@@ -35,8 +35,3 @@ def generate_persona(num_personas, args):
 
         personas.append(persona)
     return personas
-
-num_personas = 10
-attributes = ['first_name', 'gender']
-personas = generate_persona(num_personas, attributes)
-print(personas)
